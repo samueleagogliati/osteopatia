@@ -1,0 +1,40 @@
+header{
+    height: 80px;  
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.374);
+}
+
+/* BUTTON APPUNTAMENTI */
+
+.btn{
+    border: 1px solid #E97C6D;
+    margin-left: 10px;
+    font-size: small;
+    display: inline-block;
+}
+
+/* JUMBOTRON */
+.jumbotron-ep{
+    height: calc(100vh - 80px);
+    background-image: url(img/sfondo3.png);
+    background-size: cover;
+    opacity: 80%;
+}
+
+.jumbotron-ep h1{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* HOVERS */
+
+.btn:hover{
+    border: 1px solid #E97C6D;
+    color: #E97C6D;
+}
+
+.menu ul li:hover{
+    color: #E97C6D;
+    cursor: pointer;
+}
+
